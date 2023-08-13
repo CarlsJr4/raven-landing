@@ -6,18 +6,26 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Inquiry Shortening",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "RavenAI can sift through long, fluffy inquiries and email you a version with only the important details like placement, size, and subject matter. You will still have access to the original message and the client's email address if you are interested in their project.",
         align: "right",
         image: "/features1.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Inquiry Automation",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
-        align: "left",
+            "Train RavenAI with answers to your most frequently asked questions, like when your books will open, quotes, and time to complete a tattoo. You can have RavenAI redirect serious, complex inquiries, like bookings and consultations to your business email for you to handle yourself.",
+        align: "right",
+        image: "/features2.png"
+    },
+    {
+        id: uuid(),
+        title: "Simple integration",
+        content:
+            "Embed RavenAI on your website or send your clients a link so they can talk to RavenAI on a standalone page.",
+        align: "right",
         image: "/features2.png"
     }
 ];

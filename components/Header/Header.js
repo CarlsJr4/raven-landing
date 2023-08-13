@@ -34,7 +34,7 @@ export const Header = () => {
                             href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
                             className="btn btn--secondary lemonsqueezy-button ml-4"
                         >
-                            Get Template
+                            Sign up for updates
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

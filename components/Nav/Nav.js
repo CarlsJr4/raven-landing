@@ -3,17 +3,7 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
-const navigation = [
-    { name: "Features", to: "#features", href: "/#features" },
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
-    { name: "FAQ?", to: "#faq", href: "/#faq" },
-    {
-        name: "Contact",
-        href: "https://cjluntok.com/",
-        isArrow: true,
-        target: "_blank"
-    }
-];
+const navigation = [{ name: "Features", to: "#features", href: "/#features" }];
 
 export const Nav = () => {
     const router = useRouter();
