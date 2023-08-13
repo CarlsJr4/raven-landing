@@ -62,10 +62,65 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer className="feature-tabs">
-                            {/* <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
+                            <BadgeGroup alignment="center">
+                                <BadgeMessage>Upcoming features</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup> */}
+                            </BadgeGroup>
+                            <PageTitle
+                                className="text-center mx-auto"
+                                type="default"
+                            >
+                                Seamless Integration
+                            </PageTitle>
+                            <Content className="text-center" alignment="center">
+                                <p>
+                                    Pair RavenAI with popular workflow
+                                    solutions.
+                                </p>
+                            </Content>
+                            <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
+                                <Card className="col-span-1 text-primary-900">
+                                    <CardBody className="w-full bg-white-600/20 p-12">
+                                        <CardImage
+                                            src="/features4.png"
+                                            alt="Customizable Layouts image used."
+                                        />
+                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                            Jotform (coming soon)
+                                        </CardHeader>
+                                        <p>
+                                            RavenAI will talk to your clients,
+                                            gather necessary info, then compile
+                                            the data and submit a form to your
+                                            Jotform account in any format.
+                                        </p>
+                                    </CardBody>
+                                </Card>
+                                <Card className="col-span-1 text-primary-900">
+                                    <CardBody className="w-full bg-white-600/20 p-12">
+                                        <CardImage
+                                            src="/features3.png"
+                                            alt="Progress Tracking image used."
+                                        />
+                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                            Acuity (coming soon)
+                                        </CardHeader>
+                                        <p>
+                                            Eliminate the need for
+                                            back-and-forth booking communication
+                                            about your between you and your
+                                            client by syncing your Acuity
+                                            account data to RavenAI.
+                                        </p>
+                                    </CardBody>
+                                </Card>
+                            </CardGroup>
+                        </SectionContainer>
+                    </MotionBTTContainer>
+                    <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer className="feature-tabs">
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"

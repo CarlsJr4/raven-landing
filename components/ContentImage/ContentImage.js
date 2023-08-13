@@ -22,7 +22,7 @@ const ContentImageData = [
     },
     {
         id: uuid(),
-        title: "Simple integration",
+        title: "Simple embedding",
         content:
             "Embed RavenAI on your website or send your clients a link so they can talk to RavenAI on a standalone page.",
         align: "right",
