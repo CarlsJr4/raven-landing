@@ -49,9 +49,9 @@ export default function Home() {
                                 <p>
                                     Hey there! Welcome to RavenAI, a
                                     customizable assistant built specifically
-                                    for busy tattoo artists. It's super easy to
-                                    set up. No programming skills required. Here
-                                    are some key features:
+                                    for busy tattoo artists. It&apos;s super
+                                    easy to set up. No programming skills
+                                    required. Here are some key features:
                                 </p>
                             </Content>
                             <ContentImage />
@@ -70,7 +70,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Managing inquiries doesn't have to suck
+                                Managing inquiries doesn&apos;t have to suck
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p style={{ marginBottom: "2rem" }}>
