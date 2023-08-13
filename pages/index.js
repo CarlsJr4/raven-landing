@@ -23,7 +23,7 @@ export default function Home() {
         <Layout className="">
             <SEO
                 title="RavenAI - AI-Powered assistant for tattoo artists"
-                description="Discover RavenAI, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                description="Discover RavenAI, the effortless way to handle repetitive tattoo inquiries."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
