@@ -22,8 +22,8 @@ export const HomeBanner = () => {
                     <Content className="text-center" alignment="center">
                         <p>
                             Let RavenAI handle your most repetitive tattoo
-                            inquiries so you can spend less time in your emails,
-                            and more time tattooing.{" "}
+                            inquiries so you can spend less time emailing, and
+                            more time tattooing.{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
