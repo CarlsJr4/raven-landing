@@ -49,7 +49,8 @@ export default function Home() {
                                     Hey there! Welcome to RavenAI, a
                                     customizable AI assistant built specifically
                                     for busy tattoo artists. It&apos;s super
-                                    easy to set up. No programming skills
+                                    easy to set up. Automate as much or as
+                                    little as you need. No programming skills
                                     required. Here are some key features:
                                 </p>
                             </Content>
@@ -80,10 +81,6 @@ export default function Home() {
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardImage
-                                            src="/features4.png"
-                                            alt="Customizable Layouts image used."
-                                        />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Jotform (coming soon)
                                         </CardHeader>
@@ -97,10 +94,6 @@ export default function Home() {
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
-                                        <CardImage
-                                            src="/features3.png"
-                                            alt="Progress Tracking image used."
-                                        />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Acuity (coming soon)
                                         </CardHeader>
@@ -128,6 +121,8 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p style={{ marginBottom: "2rem" }}>
+                                    RavenAI is currently in early development.{" "}
+                                    <br />
                                     Be one of the first to know when RavenAI
                                     launches.
                                 </p>
@@ -139,6 +134,14 @@ export default function Home() {
                                     Keep me in the loop
                                     <Icon icon="material-symbols:arrow-forward-rounded" />
                                 </a>
+                                {/* <p
+                                    style={{
+                                        marginTop: "10px"
+                                    }}
+                                >
+                                    (For suggestions and feedback, email
+                                    carl.dungca@yahoo.com with subject: RavenAI)
+                                </p> */}
                             </Content>
                         </SectionContainer>
                     </MotionBTTContainer>
