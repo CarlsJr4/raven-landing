@@ -42,13 +42,12 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Tattoo Inquiry Process with
-                                RavenAI
+                                Simplify Your Inquiries with RavenAI
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
                                     Hey there! Welcome to RavenAI, a
-                                    customizable assistant built specifically
+                                    customizable AI assistant built specifically
                                     for busy tattoo artists. It&apos;s super
                                     easy to set up. No programming skills
                                     required. Here are some key features:

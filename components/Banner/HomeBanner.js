@@ -21,7 +21,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Let RavenAI handle your most repetitive tattoo
+                            RavenAI handles your most repetitive tattoo
                             inquiries so you can spend less time emailing, and
                             more time tattooing.{" "}
                         </p>
