@@ -16,9 +16,9 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/Raven-Logo-Words.svg"
                                 alt="logo"
-                                className="h-6 w-auto"
+                                className="h-12 w-auto"
                                 height="24"
                                 width="100"
                                 priority
@@ -32,7 +32,7 @@ export const Header = () => {
                         <a
                             role="button"
                             href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
-                            className="btn btn--secondary lemonsqueezy-button ml-4"
+                            className="btn btn--secondary ml-4"
                         >
                             Sign up for updates
                             <Icon icon="material-symbols:arrow-forward-rounded" />

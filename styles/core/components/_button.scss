@@ -8,10 +8,12 @@
 
 @layer components {
     .btn {
-        @apply inline-flex w-full cursor-pointer items-center justify-center gap-3 rounded-lg px-8 py-2 font-semibold  text-black transition-colors duration-300 hover:bg-secondary-500 md:w-auto;
+        @apply inline-flex w-full cursor-pointer items-center justify-center gap-3 rounded-lg px-8 py-2 font-semibold  text-white transition-colors duration-300 md:w-auto;
     }
     .btn--primary {
         @apply bg-primary-500;
+        color: black;
+        border: 2px solid black;
     }
     .btn--secondary {
         @apply bg-secondary-500;
