@@ -75,21 +75,9 @@ const SEO = ({ title, description, keywords }) => {
             <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
             <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-            {/* https://stackoverflow.com/questions/65472380/how-to-add-mailchimp-integration-script-to-next-js-head-without-creating-pre-r */}
             <script
-                id="mcjs"
-                type="text/javascript"
-                dangerouslySetInnerHTML={{
-                    __html: `!function(c,h,i,m,p)
-                {
-                    ((m = c.createElement(h)),
-                    (p = c.getElementsByTagName(h)[0]),
-                    (m.async = 1),
-                    (m.src = i),
-                    p.parentNode.insertBefore(m, p))
-                }
-                (document,"script","https://chimpstatic.com/mcjs-connected/js/users/53f692d5ffd0d4c537ee973b2/4736457bc1d1a5c678a4a65ec.js");`
-                }}
+                src="https://assets.lemonsqueezy.com/lemon.js"
+                defer
             ></script>
         </Head>
     );
