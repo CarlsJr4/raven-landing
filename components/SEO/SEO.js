@@ -13,6 +13,17 @@ const SEO = ({ title, description, keywords }) => {
 
     return (
         <Head>
+            <script id="mcjs">
+                !function(c,h,i,m,p)
+                {
+                    ((m = c.createElement(h)),
+                    (p = c.getElementsByTagName(h)[0]),
+                    (m.async = 1),
+                    (m.src = i),
+                    p.parentNode.insertBefore(m, p))
+                }
+                (document,"script","https://chimpstatic.com/mcjs-connected/js/users/53f692d5ffd0d4c537ee973b2/4736457bc1d1a5c678a4a65ec.js");
+            </script>
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta
