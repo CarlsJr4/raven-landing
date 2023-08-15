@@ -84,7 +84,7 @@ const SEO = ({ title, description, keywords }) => {
                     (m.src = i),
                     p.parentNode.insertBefore(m, p))
                 }
-                (document,"script","https://chimpstatic.com/mcjs-connected/js/users/53f692d5ffd0d4c537ee973b2/4736457bc1d1a5c678a4a65ec.js");
+                (document,&quot;script&quot;,&quot;https://chimpstatic.com/mcjs-connected/js/users/53f692d5ffd0d4c537ee973b2/4736457bc1d1a5c678a4a65ec.js&quot;);
             </script>
         </Head>
     );
