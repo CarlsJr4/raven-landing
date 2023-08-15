@@ -22,8 +22,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="RavenAI - AI-Powered assistant for tattoo artists"
-                description="Discover RavenAI, the effortless way to handle repetitive tattoo inquiries."
+                title="InkQuery - AI-Powered assistant for tattoo artists"
+                description="Discover InkQuery, the effortless way to handle repetitive tattoo inquiries."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -42,11 +42,11 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Inquiries with RavenAI
+                                Simplify Your Inquiries with InkQuery
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to RavenAI, a
+                                    Hey there! Welcome to InkQuery, a
                                     customizable AI assistant built specifically
                                     for busy tattoo artists. It&apos;s super
                                     easy to set up. Automate as much or as
@@ -74,7 +74,7 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Pair RavenAI with popular workflow
+                                    Pair InkQuery with popular workflow
                                     solutions.
                                 </p>
                             </Content>
@@ -85,7 +85,7 @@ export default function Home() {
                                             Jotform (coming soon)
                                         </CardHeader>
                                         <p>
-                                            RavenAI will talk to your clients,
+                                            InkQuery will talk to your clients,
                                             gather necessary info, then compile
                                             the data and submit a form to your
                                             Jotform account in any format.
@@ -102,7 +102,7 @@ export default function Home() {
                                             back-and-forth booking communication
                                             about your between you and your
                                             client by syncing your Acuity
-                                            account data to RavenAI.
+                                            account data to InkQuery.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -121,9 +121,9 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p style={{ marginBottom: "2rem" }}>
-                                    RavenAI is currently in early development.{" "}
+                                    InkQuery is currently in early development.{" "}
                                     <br />
-                                    Be one of the first to know when RavenAI
+                                    Be one of the first to know when InkQuery
                                     launches.
                                 </p>
                                 <a
@@ -140,7 +140,7 @@ export default function Home() {
                                     }}
                                 >
                                     (For suggestions and feedback, email
-                                    carl.dungca@yahoo.com with subject: RavenAI)
+                                    carl.dungca@yahoo.com with subject: InkQuery)
                                 </p> */}
                             </Content>
                         </SectionContainer>
