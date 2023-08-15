@@ -13,6 +13,21 @@ const SEO = ({ title, description, keywords }) => {
 
     return (
         <Head>
+            <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=G-LZCWD1ZEBF"
+            ></script>
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `
+											window.dataLayer = window.dataLayer || [];
+											function gtag(){dataLayer.push(arguments);}
+											gtag('js', new Date());
+
+											gtag('config', 'G-LZCWD1ZEBF');
+										`
+                }}
+            />
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta
