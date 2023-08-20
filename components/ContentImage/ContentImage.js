@@ -6,19 +6,19 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Inquiry Shortening",
-        content:
-            "InkQuery can sift through long, fluffy inquiries and email you a version with only the important details like placement, size, and subject matter. You will still have access to the original message and the client's email address if you are interested in their project.",
-        align: "right",
-        image: "/Frame1.svg"
-    },
-    {
-        id: uuid(),
         title: "Inquiry Automation",
         content:
             "Train InkQuery with answers to your most frequently asked questions, like when your books will open, quotes, and time to complete a tattoo. You can have InkQuery redirect serious, complex inquiries, like bookings and consultations to your business email for you to handle yourself.",
         align: "right",
         image: "/Frame2.svg"
+    },
+    {
+        id: uuid(),
+        title: "Inquiry Shortening",
+        content:
+            "InkQuery can sift through long, fluffy inquiries and email you a version with only the important details like placement, size, and subject matter. You will still have access to the original message and the client's email address if you are interested in their project.",
+        align: "right",
+        image: "/Frame1.svg"
     },
     {
         id: uuid(),

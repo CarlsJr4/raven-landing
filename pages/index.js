@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="InkQuery - AI-Powered assistant for tattoo artists"
+                title="InkQuery - AI Chatbot for Tattoo Artists"
                 description="Discover InkQuery, the effortless way to handle repetitive tattoo inquiries."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
@@ -42,16 +42,18 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Inquiries with InkQuery
+                                Be there for your clients, even when you can't
+                                be
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
                                     Hey there! Welcome to InkQuery, a
-                                    customizable AI assistant built specifically
-                                    for busy tattoo artists. It&apos;s super
-                                    easy to set up. Automate as much or as
-                                    little as you need. No programming skills
-                                    required. Here are some key features:
+                                    customizable AI chatbot designed to help
+                                    busy tattoo artists communicate with their
+                                    potential clients. It&apos;s super easy to
+                                    set up. Automate as much or as little as you
+                                    need. No programming skills required. Here
+                                    are some key features:
                                 </p>
                             </Content>
                             <ContentImage />
@@ -117,7 +119,8 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Managing inquiries doesn&apos;t have to suck
+                                Keeping on top of inquiries doesn&apos;t have to
+                                suck
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p style={{ marginBottom: "2rem" }}>

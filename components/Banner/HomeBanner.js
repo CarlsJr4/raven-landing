@@ -21,9 +21,9 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            InkQuery handles your most repetitive tattoo
-                            inquiries so you can spend less time emailing, and
-                            more time tattooing.{" "}
+                            InkQuery responds to your most repetitive client
+                            inquiries so you can spend less time answering
+                            questions, and more time tattooing.{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
