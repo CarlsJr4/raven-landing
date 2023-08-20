@@ -42,8 +42,8 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Be there for your clients, even when you can't
-                                be
+                                Be there for your clients, even when you
+                                can&apos;t be
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
