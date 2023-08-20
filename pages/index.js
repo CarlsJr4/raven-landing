@@ -123,18 +123,12 @@ export default function Home() {
                                 suck
                             </PageTitle>
                             <Content className="text-center" alignment="center">
-                                <p style={{ marginBottom: "2rem" }}>
-                                    InkQuery is currently in early development.{" "}
-                                    <br />
-                                    Be one of the first to know when InkQuery
-                                    launches.
-                                </p>
                                 <a
                                     role="button"
                                     href="https://form.jotform.com/232258300365147"
                                     className="btn btn--secondary"
                                 >
-                                    Keep me in the loop
+                                    Get started today
                                     <Icon icon="material-symbols:arrow-forward-rounded" />
                                 </a>
                                 {/* <p

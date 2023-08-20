@@ -27,17 +27,17 @@ export const Header = () => {
                     </h1>
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
-                    <Nav />
+                    {/* <Nav />
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
                             href="https://form.jotform.com/232258300365147"
                             className="btn btn--secondary ml-4"
                         >
-                            Sign up for updates
+                            Pricing
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
-                    </ButtonGroup>
+                    </ButtonGroup> */}
                 </SectionContainer>
             </SectionContainer>
         </header>

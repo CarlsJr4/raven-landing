@@ -39,7 +39,7 @@ export const HomeBanner = () => {
                                 href="https://form.jotform.com/232258300365147"
                                 className="btn btn--secondary"
                             >
-                                Keep me in the loop
+                                Get started today
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
