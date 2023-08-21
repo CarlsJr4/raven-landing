@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="InkQuery - AI Chatbot for Tattoo Artists"
+                title="InkQuery - Answer common client inquiries with AI"
                 description="Discover InkQuery, the effortless way to handle repetitive tattoo inquiries."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
